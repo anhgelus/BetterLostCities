@@ -15,7 +15,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = '1.12-0.0.1'
-group = 'dev.anhgelus.betterLostCities' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group = 'codes.anhgelus.betterlostcities' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'betterlostcites'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
